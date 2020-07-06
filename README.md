@@ -1,91 +1,37 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Todolist (svelte app)
 
----
+Aplikasi todolist sederhana yang di bangun menggunakan framework SvelteJS, sangat ringan dengan ukuran yang sangat kecil.
 
-# svelte app
+## Cara Penggunaan
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
+clone repo ini
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+git clone https://github.com/yudiandela/todolist-sveltejs.git todolist
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
+masuk kedalam folder app
 ```bash
-cd svelte-app
-npm install
+cd todolist
 ```
 
-...then start [Rollup](https://rollupjs.org):
-
+jalankan perintah npm
 ```bash
 npm run dev
 ```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
+atau
 ```bash
-npm run build
+yarn dev
 ```
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+## Kebutuhan Sistem
 
+- NodeJS (npm, npx)
+- Browser (Chrome, Mozilla, dll)
 
-## Single-page app mode
+## Author
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+- Yudi Andela (yudhi.andhela@gmail.com)
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+## Lisensi
 
-```js
-"start": "sirv public --single"
-```
-
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+Terserah mau diapain, :blush:
